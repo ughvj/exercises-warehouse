@@ -4,14 +4,13 @@
 int main(void){
     int i, acc, limit;
     scanf("%d", &limit);
-    
-    acc = 0;
-    i = 1;
-    while (acc <= limit) acc += i++;
-    // 以下と同義
-    // while (acc <= limit) {
-    //     acc += i;
-    //     i++;
-    // }
+
+    for (acc = 0, i = 1; acc <= limit; acc += i++) ;
+
+    // while文を使用した例
+    // acc = 0;
+    // i = 1;
+    // while (acc <= limit) acc += i++;
+
     printf("%d\n", acc);
 }

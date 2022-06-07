@@ -7,9 +7,8 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         int limit = scan.nextInt();
         int acc = 0;
-        int i = 1;
 
-        while (acc <= limit) acc += i++;
+        for (int i = 1; acc <= limit; acc += i++) ;
 
         System.out.printf("%d\n", acc);
     }

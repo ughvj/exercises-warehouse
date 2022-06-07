@@ -8,17 +8,27 @@ int main(void){
     srand((unsigned int)time(NULL));
     int current, target, count;
     scanf("%d", &target);
-    
-    current = count = 0;
-    while(current <= target) {
+
+    for (current = count = 0; current <= target; count++) {
         // 0 as winning
         if (rand() % 2 == 0) {
             current += 100;
         } else {
             current -= 50;
         }
-        count++;
     }
+    
+    // while文を使用した例
+    // current = count = 0;
+    // while(current <= target) {
+    //     // 0 as winning
+    //     if (rand() % 2 == 0) {
+    //         current += 100;
+    //     } else {
+    //         current -= 50;
+    //     }
+    //     count++;
+    // }
     
     printf("%d", count);
 }
