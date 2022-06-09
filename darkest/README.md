@@ -17,6 +17,8 @@
 409126168X
 ```
 
+出力
+
 ```
 true
 false
@@ -26,7 +28,30 @@ true
 
 ## :alien: darkest 2
 
-- coming soon
+- 以下の並列処理に関するプログラムは、 "Good bye" の出力を目的としています
+- しかし、現状のプログラムではいくつかの懸念があります
+- 懸念をソース内のコメントに明記した上で、それを解消したプログラムを作成しよう
+
+```
+#include <stdio.h>
+#include <pthread.h>
+
+int i = 0;
+
+void func() {
+    i++;
+}
+
+int main(void){
+    pthread_t thread;
+    pthread_create(&thread, NULL, func, NULL);
+    if (i == 0) {
+        printf("Hello world\n");
+    } else {
+        printf("Good bye\n");
+    }
+}
+```
 
 ## :innocent: darkest 3
 
