@@ -10,3 +10,4 @@
 - `4_dancing_queen` - 2022/6/10(金) 回の問題
 - `5_top_of_the_world` - 2022/6/17(金) 回の問題
 - `6_born_in_the_usa` - 2022/6/24(金) 回の問題
+- `7_i_just_called_to_say_i_love_you` - 2022/7/1(金) 回の問題
