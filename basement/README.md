@@ -22,3 +22,12 @@
 | if / else | 条件を分岐する | // 変数aの値が10より小さい場合に"Hello", そうでない場合に "World" を出力する<br>```if (a < 10) { printf("Hello\n");} else {  printf("World\n");}``` |
 | for | 繰り返しする | // "Hello world" を5回出力する<br>```int i;for (i=0; i<5; i++) { printf("Hello world");}``` |
 | while | 繰り返しする | // "Hello world" を5回出力する<br>```int i; while (i<5) { printf("Hello world"); i++;}``` |
+
+## Visual Studio Codeでプログラミングするための準備
+
+- 簡単な手順を書くので、分からなければ質問してね！
+
+1. [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)をインストールする
+2. [clang](https://github.com/llvm/llvm-project/releases/tag/llvmorg-14.0.0)をインストールする
+3. Visual Studio Codeに拡張機能 "C/C++" をインストールする
+4. Visual Studio Codeの環境設定から、jdkへ環境変数を通す
