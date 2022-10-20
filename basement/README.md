@@ -31,6 +31,5 @@
 - 簡単な手順を書くので、分からなければ質問してね！
 
 1. [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)をインストールする
-2. [clang](https://github.com/llvm/llvm-project/releases/tag/llvmorg-14.0.0)をインストールする
+2. [gcc](https://jmeubank.github.io/tdm-gcc/)をインストールする
 3. Visual Studio Codeに拡張機能 "C/C++" をインストールする
-4. Visual Studio Codeの環境設定から、jdkへ環境変数を通す
