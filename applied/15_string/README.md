@@ -16,19 +16,19 @@ String s = "Hello";
 - 文字列を操作するためのメソッドも豊富に用意されています。以下に利用例を示します。
 
 ```
-String s = "Hello World";
+String s = "  Hello World  ";
 
-// 文字列の中の、空白を全て取り除く
-// 出力: HelloWorld
+// 文字列の前後の空白を取り除く
+// 出力: Hello World
 s.trim();
 
 // 文字列の長さを数える
-// 出力: 11
+// 出力: 15
 s.length();
 
 // 文字列からn文字目を得る
 // 出力: e
-s.charAt(1);
+s.charAt(3);
 ```
 
 ## 参考
