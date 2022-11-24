@@ -1,5 +1,5 @@
-// 入力した文字列が、"Hello" を含んでいた場合に、"World" を出力してください
-// 含んでいない場合は、"Please say "Hello" !" と出力してください
+// 入力した文字列が空である場合には、 「empty」と出力してください
+// 空でない場合は、そのまま出力してください
 
 import java.util.*;
 
@@ -9,10 +9,10 @@ public class _1 {
         String input = scan.nextLine();
         scan.close();
 
-        if (input.indexOf("Hello") == -1) {
-            System.out.printf("Please say \"Hello\" \n");
+        if (input.length() == 0) {
+            System.out.printf("empty\n");
         } else {
-            System.out.printf("World\n");
+            System.out.printf("%s\n", input);
         }
     }
 }
